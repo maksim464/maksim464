@@ -1,38 +1,43 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Якого кота краще завести: плюси й мінуси різних порід</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
 
         header {
             background-color: #333;
-            color: white;
+            color: #fff;
             text-align: center;
             padding: 10px;
+        }
+
+        header img {
+            float: right;
         }
 
         main {
             max-width: 800px;
             margin: 20px auto;
-            background-color: white;
+            background-color: #fff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        main p {
+            font-size: 18px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-        }
-
-        table, th, td {
-            border: 1px solid #333;
         }
 
         th, td {
@@ -42,7 +47,11 @@
 
         th {
             background-color: #333;
-            color: white;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
         }
 
         img {
@@ -54,14 +63,13 @@
 
         footer {
             background-color: #333;
-            color: white;
+            color: #fff;
             text-align: center;
             padding: 10px;
-            position: relative;
         }
 
         footer a {
-            color: white;
+            color: #fff;
             text-decoration: none;
             margin: 0 10px;
         }
@@ -74,76 +82,51 @@
 <body>
     <header>
         <p id="верх">Є дуже багато порід котів, але я вам розкажу про самі популярні породи котів та плюси й мінуси цих порід.</p>
-        <p style="text-align:right"><img src="https://cdn.dribbble.com/userupload/2641917/file/original-eebdcaf8f1b014a0d1c66e8cd3d86257.png" height="150" width="200"></p>
+        <img src="https://cdn.dribbble.com/userupload/2641917/file/original-eebdcaf8f1b014a0d1c66e8cd3d86257.png" height="150" width="200">
     </header>
     <main>
         <p>Одні із самих популярних порід кішок це: Бенгали, Сфінкси, Мейн-куни. Їх плюси і мінуси ми розберем і вирішимо, який із них найкращий варіант для придбання.</p>
         <table id="таблиця">
             <tr>
                 <th>Порода кота</th>
-                <th></th>
                 <th>Плюси</th>
-                <th></th>
                 <th>Плюси</th>
-                <th></th>
                 <th>Плюси</th>
-                <th></th>
                 <th>Мінуси</th>
-                <th></th>
                 <th>Мінуси</th>
-                <th></th>
                 <th>Мінуси</th>
             </tr>
             <tr>
                 <td>Сфінкс</td>
-                <td></td>
                 <td>Легко мити</td>
-                <td></td>
                 <td>Гіпералергенний</td>
-                <td></td>
                 <td>Не линяє</td>
-                <td></td>
                 <td>Не зовсім гарний</td>
-                <td></td>
                 <td>Доволі злий</td>
-                <td></td>
                 <td>Не мягкий</td>
             </tr>
             <tr>
                 <td>Мейн-кун</td>
-                <td></td>
                 <td>Він дуже пухнастий</td>
-                <td></td>
                 <td>Він дуже дружелюбний</td>
-                <td></td>
                 <td>Він дуже охайний</td>
-                <td></td>
                 <td>Він дуже габаритний</td>
-                <td></td>
                 <td>Він дуже активний, але через його габарити він може нарабити клопоту</td>
-                <td></td>
                 <td>Він завжди повинен бути з людиною</td>
             </tr>
             <tr>
                 <td>Бенгалів</td>
-                <td></td>
                 <td>Легко дружиться з іншими котами</td>
-                <td></td>
                 <td>Шерсть легко доглядається</td>
-                <td></td>
                 <td>Гіпералергенний</td>
-                <td></td>
                 <td>Висока вартість</td>
-                <td></td>
                 <td>Постійна потреба у спілкуванні</td>
-                <td></td>
-                <td></td>
+                <td>Норовливий характер</td>
             </tr>
         </table>
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Hermitage_cat.jpeg" height="500px" width="700px">
     </main>
-    <footer>
-        Плюси й мінуси різні, але який кіт кращий, вирішувати вам
+    <footer> Плюси й мінуси різні, але який кіт кращий, вирішувати вам
         <a href="#верх">до верху</a>
         <a href="#таблиця">до таблиці</a>
         <br>
